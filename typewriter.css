@@ -1,3 +1,24 @@
+body {
+  margin: 0;
+  background-color: bisque;
+}
 .typewritten {
-    font-family: 'Special Elite', cursive;        
+  font-family: "Special Elite", cursive;
+  display: none;
+}
+#display-text {
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.hide {
+  display: none;
+}
+button {
+  margin: auto;
+  display: block;
+  width: 150px;
+  height: 80px;
+  background-color: burlywood;
+  border: 0;
 }
